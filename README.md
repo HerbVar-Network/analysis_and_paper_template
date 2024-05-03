@@ -1,1 +1,3 @@
-# README (temporary, to fill out as needed for each folder)
+# README 
+
+A template R Project for HerbVar Team members to analyze data and produce a manuscript all in one place 
