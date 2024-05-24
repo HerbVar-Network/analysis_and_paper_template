@@ -1,4 +1,26 @@
 
+
+
+
+
+# load packages -----------------------------------------------------------
+
+library(tidyverse)
+library(janitor)
+library(here)
+
+
+# download the HerbVar data  ----------------------------------------------
+
+source(here("code","download_data.R"))
+download_data()
+
+
+# Prep data for analysis --------------------------------------------------
+
+# load and run the functions that prepare data for analysies 
+
+
 #### Template of a master script for the project ####
 
 ## Using an advanced tool like {drake} or {targets} is recommended,
